@@ -1,0 +1,15 @@
+STATUS: INLINE SUCCESSFUL
+MODIFIED: com.github.kevinsawicki.http.HttpRequestTest.getUrlEncodedWithSpace
+MODIFIED FILE: /home/awshi2/kevinsawicki/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+CLEANER: com.github.kevinsawicki.http.HttpRequestTest.nullConnectionFactory
+CLEANER FILE: /home/awshi2/kevinsawicki/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+POLLUTER: com.github.kevinsawicki.http.HttpRequestTest.customConnectionFactory
+POLLUTER FILE: /home/awshi2/kevinsawicki/http-request/lib/src/test/java/com/github/kevinsawicki/http/HttpRequestTest.java
+ORIGINAL CLEANER SIZE: 6
+NEW CLEANER SIZE: 1
+ELAPSED TIME: 20.368000030517578
+==========================
+@@ -273,0 +273,3 @@
++ {
++     HttpRequest.setConnectionFactory(null);
++ }
